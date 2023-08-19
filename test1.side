@@ -1,0 +1,173 @@
+{
+  "id": "dc16a941-7b52-4d27-9341-dfa58157746d",
+  "version": "2.0",
+  "name": "test1",
+  "url": "https://prokrasota.ru/",
+  "tests": [{
+    "id": "c1cb9262-291c-406d-95e2-1ab9381b8ff1",
+    "name": "Untitled",
+    "commands": [{
+      "id": "3c83831d-e23f-48f6-bd92-78c44a328af1",
+      "comment": "",
+      "command": "open",
+      "target": "https://prokrasota.ru/",
+      "targets": [],
+      "value": "https://prokrasota.ru/"
+    }, {
+      "id": "064d6e44-1b77-4890-9316-0f129aeefd90",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Вход",
+      "targets": [
+        ["linkText=Вход", "linkText"],
+        ["css=.top-auth-login > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Вход')]", "xpath:link"],
+        ["xpath=//div[@id='topAuth']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/auth/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Вход')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9be599d8-456b-47ee-9dd9-8d1433654815",
+      "comment": "",
+      "command": "type",
+      "target": "name=USER_LOGIN",
+      "targets": [
+        ["name=USER_LOGIN", "name"],
+        ["css=.bx-auth-input-line:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='USER_LOGIN']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "marya_dnep@mail.ru"
+    }, {
+      "id": "34200898-2aea-4886-82c7-d8775aed771a",
+      "comment": "",
+      "command": "type",
+      "target": "name=USER_PASSWORD",
+      "targets": [
+        ["name=USER_PASSWORD", "name"],
+        ["css=.bx-auth-input-line:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='USER_PASSWORD']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Qwerty_1"
+    }, {
+      "id": "66a7ce7e-1b1d-4a9e-9fda-264a8e24e928",
+      "comment": "",
+      "command": "click",
+      "target": "name=Login",
+      "targets": [
+        ["name=Login", "name"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@name='Login']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "867e5e3f-0318-4a68-a435-df8f27e7948a",
+    "name": "filtrasia",
+    "commands": [{
+      "id": "de9953d9-928b-4851-a720-3193d8eecc7f",
+      "comment": "",
+      "command": "open",
+      "target": "https://prokrasota.ru/",
+      "targets": [],
+      "value": "https://prokrasota.ru/"
+    }, {
+      "id": "51729577-9ada-42b1-bd86-6cfaba9a3319",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Спрей для укладки волос",
+      "targets": [
+        ["linkText=Спрей для укладки волос", "linkText"],
+        ["css=.activeDrop .nextColumn:nth-child(2) li:nth-child(3) > .menu2Link", "css:finder"],
+        ["xpath=//a[contains(text(),'Спрей для укладки волос')]", "xpath:link"],
+        ["xpath=//ul[@id='mainMenu']/li/div/div/ul[2]/li/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/dlya-volos/stayling/sprey/')]", "xpath:href"],
+        ["xpath=//ul[2]/li/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Спрей для укладки волос')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0798cdb-671a-4b94-b21a-2a5147af59db",
+      "comment": "",
+      "command": "click",
+      "target": "id=sl_2",
+      "targets": [
+        ["id=sl_2", "id"],
+        ["css=#sl_2", "css:finder"],
+        ["xpath=//div[@id='sl_2']", "xpath:attributes"],
+        ["xpath=//form[@id='smartFilterForm']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79b09cf3-13f3-4ec5-8d89-89db75f72cc0",
+      "comment": "",
+      "command": "type",
+      "target": "id=arrFilter_P2_MAX",
+      "targets": [
+        ["id=arrFilter_P2_MAX", "id"],
+        ["name=arrFilter_P2_MAX", "name"],
+        ["css=#arrFilter_P2_MAX", "css:finder"],
+        ["xpath=//input[@id='arrFilter_P2_MAX']", "xpath:attributes"],
+        ["xpath=//div[@id='sl_2']/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input[2]", "xpath:position"]
+      ],
+      "value": "1200"
+    }, {
+      "id": "eb567e85-199c-4bf7-845e-c50bf0f8a957",
+      "comment": "",
+      "command": "click",
+      "target": "id=set_filter",
+      "targets": [
+        ["id=set_filter", "id"],
+        ["linkText=Показать", "linkText"],
+        ["css=#set_filter", "css:finder"],
+        ["xpath=(//a[contains(text(),'Показать')])[3]", "xpath:link"],
+        ["xpath=//a[@id='set_filter']", "xpath:attributes"],
+        ["xpath=//ul[@id='smartFilterControls']/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[26]", "xpath:href"],
+        ["xpath=//form/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e689fbe5-d13c-42c0-bc0c-bb8cd897cc6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sortFields > .dropDownSelected",
+      "targets": [
+        ["css=.sortFields > .dropDownSelected", "css:finder"],
+        ["xpath=//div[@id='catalogLine']/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2da2474b-d6ff-4115-997e-e3c3eae30748",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opened > .dropDownItem:nth-child(2)",
+      "targets": [
+        ["css=.opened > .dropDownItem:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='catalogLine']/div[2]/div[2]/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a151464a-6fc7-4020-9d8a-0f40e0d49d1b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c1cb9262-291c-406d-95e2-1ab9381b8ff1"]
+  }],
+  "urls": ["https://prokrasota.ru/"],
+  "plugins": []
+}
